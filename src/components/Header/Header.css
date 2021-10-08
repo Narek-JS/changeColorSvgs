@@ -1,0 +1,19 @@
+header h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 80px;
+}
+header {
+    background-color: rgba(56, 58, 69, 1);
+}
+@media screen and (max-width:1000px) {
+    header h1 {
+        padding: 15px 50px;
+    }
+}
+@media screen and (max-width:670px) {}

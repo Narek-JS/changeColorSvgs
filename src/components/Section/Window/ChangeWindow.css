@@ -1,0 +1,138 @@
+.openAddWindow{
+    display: block;
+    width: 290px;
+    height: 290px;
+    background-color: rgb(147 147 148);
+    margin-left: 35px;
+}
+.closeX{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.photoDiv {
+    display: flex;
+    justify-content: center;
+}
+.photoDiv div {
+    background-color: #4c4c4c;
+    width: 160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.photoDiv div img{
+    width: 35px;
+    height: 45px;
+    margin: 10px;
+}
+.photoDiv div p{
+    font-size: 18.5px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+}
+.photoDiv div input{
+    width: 90px;
+    border: none;
+}
+.chooseColor{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.chooseColor input {
+    width: 55px;
+    height: 25px;
+}
+.chooseColor p{
+    font-size: 18.5px;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+}
+.inputNameAndButton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 20px;
+}
+.inputNameAndButton button{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #deb210eb;
+}
+.inputNameAndButton button:hover{
+    font-size: 17px;
+    background-color: blueviolet;
+}
+.inputNameAndButton input{
+    border-radius: 6px;
+    min-width: 246px;
+    height: 20px;
+    margin: 15px 0;
+}
+.buttonsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputNameAndButton .buttonDelete{
+    background-color: red;
+}
+.OnChangeWindow{
+    display: block;
+    width: 290px;
+    height: 290px;
+    background-color: rgb(147 147 148);
+}
+.ErrorDiv{
+    min-width: 246px;
+    margin-top: 3px;
+    height: 80px;
+    transition: 1s;
+    background-color: red;
+}
+.ErrorDiv h2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-top: 15px;
+}
+@media screen and (max-width:1000px) {
+    .OnChangeWindow{
+        width: 250px;
+        height: 250px;
+    }
+    .closeX{
+        font-size: 22px;
+    }
+    .photoDiv div img {
+        width: 30px;
+        height: 40px;
+    }
+    .photoDiv div, .photoDiv1 .photoDiv1a{
+        width: 145px;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+    .inputNameAndButton input {
+        min-width: 207px;
+        margin: 12px 0 10px 0;
+    }
+}
+@media screen and (max-width:920px) {
+    .OnChangeWindow{
+        margin: 30px 0 0 0px;
+    }
+}
+@media screen and (max-width:670px) {}
